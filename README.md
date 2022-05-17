@@ -10,7 +10,7 @@
 👤 **Author**
 - Kipkemoi Jared Kevin.
 
-- GitHub: [@Koech-code](https://github.com/JAREDKEVIN)
+- GitHub: [@JAREDKEVIN](https://github.com/JAREDKEVIN)
 
 ## Technologies Used
 
