@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <h2 class="display-4">{{quotes.id}}</h2>
+    <h1 class="display-4">{{quotes.author}}</h1>
+    <p class="lead">{{quotes.quote}}</p>
+    <hr class="my-4">
+    <a href="/new_post">{{quotes.permalink}}</a>
+</div>
+
+     <div class="card text-white bg-success blogs" style="max-width: 60rem; min-height: 30rem;">
+        <div class="card-body">
+        {% for post in post%}
+          <h2 class="card-title">{{post.title}}</h2>
+          <p>{{post.content}}</p>
+          <p>{{post.posted}}</p>
+          {% endfor%}
+         
+         
+        </div>
+      </div> 
+      <br>
+  <div >
+    <section class="bg-success text-center p-5 mt-4">
+      <div class="container p-3">
+        <h3>SUBSCRIBE NOW</h3>
+        <form action="{{url_for('main.subscribe')}}" method="POST">
+          <input id="input" type="text" name="text" placeholder="Enter Your Email Address">
+          <button type="button" class="btn btn-info">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </div>
+{% endblock%}
