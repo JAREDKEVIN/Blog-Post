@@ -1,0 +1,47 @@
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"></a>
+            <a class="navbar-brand" href=""> </a>
+            <ul class="nav navbar-nav">
+            </ul>
+        </div>
+        
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav " >
+                <li style="height: 80px; font-size: 50px; font-weight: 600;"><span style="color: #fefae0;">Nicky's Blogging Site </span></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a id="navi"  href="/">Home</a></li>
+                <li>
+                    <a id="navi" href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a>
+                </li>
+                <li>
+                    <a id="navi" href="/new_post">Blog-post</a>
+                </li>
+                
+                <li>
+                    <a id="navi" href="{{url_for('auth.login')}}">Log In</a>
+                </li>
+                <li>
+                    <a id="navi" href="{{url_for('auth.register')}}">Register</a>
+                </li>
+                <li>
+                    <a id="navi" href="{{url_for('auth.login')}}"><i class="fas fa-sign-out-alt"></i>&nbsp;Logout</a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+</div>
