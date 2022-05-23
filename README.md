@@ -16,7 +16,7 @@
 
 - HTML
 - CSS
-- PYTHON `3.6`
+- PYTHON `3`
 - PYTHON SHELL 
 - FLASK
 - FLASK_BOOTSTRAP
@@ -75,13 +75,13 @@ $ git clone https://github.com/JAREDKEVIN/Blog-Post.git
   ```
 - Run the application using;
   ```
-  python3.8 manage.py server
+  python3 manage.py server
   ```
 - Test it if its working using;
   ```
-  python3.8 manage.py test
+  python3 manage.py test
   ```
-- Open the application on your browser , preferably `chrome` using port `127.0.0.1:5000`
+- Open the application on your browser , using port `127.0.0.1:5000`
 
 
 ## Show your support

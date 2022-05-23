@@ -10,11 +10,11 @@
         {% if title %}
         <title> {{ title }}</title>
         {% else %}
-        <title>Blog post site</title>
+        <title>Blog Post</title>
         {% endif %}
         {% block styles%}
         {{ super() }}
-        <link rel="stylesheet" href="{{url_for('static',filename='css/quotes.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/stylesheet')}}">
     {% endblock %}
     </head>
     <body>
