@@ -1,4 +1,4 @@
 export SECRET_KEY=7166
-export MAIL_USERNAME=kevin.kipkemoi@student.moringaschool.com
-export MAIL_PASSWORD=kipkemoi1234
-python3 manage.py server
+export MAIL_USERNAME=nickykoech098@gmail.com
+export MAIL_PASSWORD=kipkorir1234
+python3.6 manage.py server

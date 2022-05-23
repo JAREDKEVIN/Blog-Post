@@ -21,6 +21,7 @@ class Config:
 class ProdConfig(Config):
     '''
     Production configuration child class
+
     Args:
         Config: takes the parent configuration class as an argument
     '''
@@ -29,6 +30,7 @@ class ProdConfig(Config):
 class DevConfig(Config):
     '''
     Child configuration class
+
     Args:
         Config:takes the configuration child class as an argument 
     '''
