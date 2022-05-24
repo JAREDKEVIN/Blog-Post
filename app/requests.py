@@ -1,3 +1,4 @@
+
 import requests, json
 from .models import Quote
 
